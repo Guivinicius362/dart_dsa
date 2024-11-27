@@ -1,6 +1,7 @@
 void main() {
   print(mergeSort([3, 33, 10, 22, 18, 2, 1, 10, 13, 15]));
 }
+// nlogn
 
 List<int> mergeSort(List<int> arr) {
   if (arr.length == 1) return arr;

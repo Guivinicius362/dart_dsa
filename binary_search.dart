@@ -4,6 +4,7 @@ void main() {
   print(search(arr, target, 0, arr.length - 1));
 }
 
+// O(logn)
 int search(List<int> arr, int target, int s, int e) {
   if (s > e) return -1;
 
